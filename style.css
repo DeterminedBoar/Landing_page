@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Variables */
 :root {
     --white: #F9FAF8;
     --lightgrey: #e5e7eb;
     --black: #1f2937;
 }
-
+/* Utility Classes */
 .bg-dark {
     background-color: #1f2937;
 }
@@ -38,6 +38,12 @@
     font-size: 18px;
 }   
 
+.container {
+    max-width: 900px;
+    overflow: auto;
+    margin: auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -45,4 +51,26 @@ a {
 ul {
     display: flex;
     list-style: none;
+}
+
+/* Navigation Bars */
+.navigation-bar {
+    flex-direction: row;
+    margin: auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation-bar a {
+    color: var(--lightgrey)
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo a {
+    color: var(--white)
 }

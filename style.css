@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --white: #F9FAF8;
+    --lightgrey: #e5e7eb;
+    --black: #1f2937;
+}
+
+.bg-dark {
+    background-color: #1f2937;
+}
+
+.bg-grey {
+    background-color: #e5e7eb;
+}
+
+.bg-blue {
+    background-color: #3882f6;
+}
+
+.h1 {
+    font-size: 48px;
+}
+
+.h2 {
+    font-size: 36px;
+}
+
+.h3 {
+    font-size: 24px;
+}
+
+.h4 {
+    font-size: 18px;
+}   
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}

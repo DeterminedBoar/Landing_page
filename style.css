@@ -65,7 +65,7 @@ ul {
 .navigation-bar {
     flex-direction: row;
     margin: auto;
-    padding: 1rem;
+    padding: 1rem 0;
     justify-content: center;
     align-items: center;
     gap: 24px;
@@ -81,4 +81,45 @@ ul {
 
 .logo a {
     color: var(--white)
+}
+
+/* Hero */
+#hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-content {
+    color: var(--white);
+    display: flex;
+    gap: 16px;
+    padding: 2rem 0;
+    margin: 2rem auto;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.hero-text button {
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 24px;
+    margin-top: 8px;
+}
+
+.hero-img, .hero-text {
+    max-height: 215px;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.hero-img img {
+    object-fit: cover;
+    position: relative;
+    max-height: fit-content;
 }

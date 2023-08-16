@@ -104,6 +104,12 @@ ul {
     align-items: start;
 }
 
+.hero-img, .hero-text {
+    max-height: 215px;
+    max-width: 50%;
+    overflow: hidden;
+}
+
 .hero-text button {
     color: var(--white);
     border: none;
@@ -112,10 +118,8 @@ ul {
     margin-top: 8px;
 }
 
-.hero-img, .hero-text {
-    max-height: 215px;
-    max-width: 50%;
-    overflow: hidden;
+.hero-text p {
+    color: var(--lightgrey);
 }
 
 .hero-img img {

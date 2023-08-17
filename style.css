@@ -210,3 +210,10 @@ ul {
     border-radius: 5px;
     padding: 0.25rem 1.5rem;
 }
+
+/* Footer */
+footer p {
+    color: var(--lightgrey);
+    text-align: center;
+    padding: 2rem;
+}

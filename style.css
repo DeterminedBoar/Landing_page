@@ -172,8 +172,7 @@ ul {
 
 /* Testimonial section */
 #testimonials .test-content {
-    padding: 4rem;
-    margin: 1rem;
+    padding: 6rem;
     color: var(--black);
 }
 
@@ -184,4 +183,30 @@ ul {
 
 #testimonials h3 {
     text-align: end;
+}
+
+/* Sign Up */
+#sign-up {
+    color: var(--white);
+}
+
+#sign-up .sign-up-content {
+    display: flex;
+    border-radius: 5px;
+    padding: 2rem 6rem;
+    margin: 5rem 0;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#sign-up p {
+    color: var(--lightgrey);
+}
+
+#sign-up button {
+    color: var(--white);
+    border-color: var(--white);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0.25rem 1.5rem;
 }

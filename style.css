@@ -127,3 +127,46 @@ ul {
     position: relative;
     max-height: fit-content;
 }
+
+/* Information Section */
+#site-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#site-info h2 {
+    margin: 2rem auto;
+    text-align: center;
+    color: var(--black);
+}
+
+#site-info img {
+    object-fit: cover;
+    position: relative;
+    height: 175px;
+    width: 175px;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    border-color: #3882f6;
+    border-style: solid;
+}
+
+.cardlist {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 32px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 175px;
+    text-align: center;
+    color: var(--black);
+    
+}

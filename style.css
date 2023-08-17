@@ -168,5 +168,20 @@ ul {
     max-width: 175px;
     text-align: center;
     color: var(--black);
-    
+}
+
+/* Testimonial section */
+#testimonials .test-content {
+    padding: 4rem;
+    margin: 1rem;
+    color: var(--black);
+}
+
+#testimonials h2 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#testimonials h3 {
+    text-align: end;
 }
